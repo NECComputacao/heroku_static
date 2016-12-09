@@ -26,7 +26,7 @@ function mounth_change(opt){
     
     mes_calendario = atual+1;
     
-    var dbAPI = "http://localhost:8000/" + mes_calendario + "-" + ano_calendario + "/";
+    var dbAPI = "/" + mes_calendario + "-" + ano_calendario + "/";
     $.getJSON( dbAPI ).done(function( dados ) {
         dias_actividades_mes_atual =[].concat.apply([], dados);
         getDaysArray(ano_calendario, atual+1);
@@ -40,7 +40,7 @@ function init_calendario(){
     document.getElementById("data_Atual").textContent = data_atual;
     document.getElementById("mes_atual").textContent = hoje_mes_string;
     
-    var dbAPI = "http://localhost:8000/" + mes_calendario + "-" + ano_calendario + "/";
+    var dbAPI = "/" + mes_calendario + "-" + ano_calendario + "/";
     $.getJSON( dbAPI ).done(function( dados ) {
         //dias_actividades_mes_atual = dados;
         dias_actividades_mes_atual =[].concat.apply([], dados);
@@ -102,7 +102,7 @@ function muda_data_atual(divi){
 //var imagem = null;
 function muda_data_atual_aux(ddaattaa){
     document.getElementById("data_Atual").textContent = ddaattaa;
-    $.getJSON("http://localhost:8000/" + ddaattaa.split('/').reverse().join('-') + '/', function(dadoss){
+    $.getJSON("/" + ddaattaa.split('/').reverse().join('-') + '/', function(dadoss){
         var n = dadoss.length;
         dados_act = document.getElementById("dados_atividades");
         dados_act.innerHTML = ""; 
