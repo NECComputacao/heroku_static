@@ -48,6 +48,7 @@ function init_calendario(){
     });
     
     muda_data_atual_aux(data_atual);
+    console.log("tito");
 }
 
 function getDaysArray(year, month) {
