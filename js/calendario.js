@@ -48,7 +48,6 @@ function init_calendario(){
     });
     
     muda_data_atual_aux(data_atual);
-    console.log("tito");
 }
 
 function getDaysArray(year, month) {
@@ -106,9 +105,7 @@ function muda_data_atual_aux(ddaattaa){
     $.getJSON("/" + ddaattaa.split('/').reverse().join('-') + '/', function(dadoss){
         var n = dadoss.length;
         dados_act = document.getElementById("dados_atividades");
-        dados_act.innerHTML = ""; 
-        console.log(dadoss);
-        console.log(n);
+        dados_act.innerHTML = "";
         if(n){
             for(var i=0, k=i; i<n; i++){
                 var dados = dadoss[i];
