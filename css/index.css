@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+body{
+    /*
+    background-color: #eee;
+    background-color: #f5f5f5;
+    */
+    background-color: #fafafa;
+}
+
+.btn-social {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn-outline {
+    color: white;
+    font-size: 20px;
+    border: solid 2px white;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    color: #29b6f6;
+    background: white;
+    border: solid 2px white;
+}
+
+.list-inline{
+    margin-top: -10px;
+}
+
+.list-inline li {
+    top: -10px;
+    display: inline;
+    margin-right: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+nav.stick {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#textarea1{
+    height: 108px !important;
+}
+
+/*#textarea1{
+    background-color: #fff;
+}
+
+.input-field input[type="email"]{
+    background-color: #fff;
+}
+
+.input-field input[type="text"]{
+    background-color: #fff;
+}*/
+    
+
+#textarea1:focus{
+    border-bottom: 1px solid #29b6f6;
+    -webkit-box-shadow: 0 1px 0 0 #29b6f6;
+    -moz-box-shadow: 0 1px 0 0 #29b6f6;
+    box-shadow: 0 1px 0 0 #29b6f6;
+}
+
+.active {
+    color: #29b6f6 !important;
+}
+
+/* label underline focus color */
+.input-field input[type="email"]:focus {
+    border-bottom: 1px solid #29b6f6;
+    -webkit-box-shadow: 0 1px 0 0 #29b6f6;
+    -moz-box-shadow: 0 1px 0 0 #29b6f6;
+    box-shadow: 0 1px 0 0 #29b6f6;
+}
+
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+    border-bottom: 1px solid #29b6f6;
+    -webkit-box-shadow: 0 1px 0 0 #29b6f6;
+    -moz-box-shadow: 0 1px 0 0 #29b6f6;
+    box-shadow: 0 1px 0 0 #29b6f6;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #29b6f6;
+}
+
+td{
+    padding: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 40px;
+    text-align: center;
+}
+
+.cal_dia{
+    margin: auto;
+    width: 34px;
+    height: 34px;
+    padding-top: 6px;
+    border-radius: 40px !important;
+    cursor: grab;
+}
+
+.cal_dia:hover{
+    background-color: #ccc;
+    color: #333 !important;
+}
+
+.cal_dia_setas{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.cal_dia_setas:hover{
+    background-color: #64b5f6 !important;
+    color: #fff !important;
+}
+
+.gey_text{
+    color:#333 !important;
+}
+
+.cal_dia_atual{
+    margin: auto;
+    width: 34px;
+    height: 34px;
+    padding-top: 6px;
+    border-radius: 40px !important;
+    background-color: #333;
+    color: #fff !important;
+}
+
+.cal_dia_atividade{
+    color: #29b6f6 !important;
+}
+
+.setas:hover{
+    background-color: #ccc;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.opacidade{
+    background-color: rgba(0,0,0,0.9);
+}
+
+#dados_atividades a {color: #eee !important;}
+#dados_atividades a:link {color: #eee !important;}
+#dados_atividades a:visited {color: #eee !important;}
+#dados_atividades a:hover {color: #fff !important;}
+#dados_atividades a:active {color: #eee !important;}
+
+.dados_atividades_conteudo a {color: #333 !important;}
+.dados_atividades_conteudo a:link {color: #333 !important;}
+.dados_atividades_conteudo a:visited {color: #333 !important;}
+.dados_atividades_conteudo a:hover {color: #fff !important;}
+.dados_atividades_conteudo a:active {color: #333 !important;}
+
+.separador-grosso {
+    border-bottom: 4px solid #f8f8f8 !important; 
+    padding-top: 0px !important; 
+    margin-top: 0px !important; 
+    top: 0px !important;
+}
+
+.separador-fino {
+    border-bottom: 1px solid #f8f8f8 !important; 
+    padding-top: 0px !important; 
+    margin-top: 0px !important; 
+    top: 0px !important;
+}
+
+.cartao {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    margin: 0.5rem 0 1rem 0;
+}
+
+#dados_atividades_conteudo {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ipsum-lorem-1:before {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit in nulla eget eleifend. Morbi id imperdiet arcu, eget venenatis mauris. Mauris eleifend consequat convallis. Curabitur vitae varius urna. Maecenas nulla mi, aliquet non nibh vel, vehicula egestas urna. Nulla tincidunt arcu vel felis venenatis, vel rutrum nisi mattis. Proin ac eros consequat, imperdiet ipsum et, ullamcorper lacus. In egestas leo sed rhoncus gravida. Donec iaculis nibh nibh, vitae rutrum tortor ullamcorper in. Fusce ex arcu, molestie vel est vel, laoreet dictum leo. Sed ligula risus, placerat sed ligula a, eleifend maximus sem."
+}
+
+.ipsum-lorem-2:before {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis nisi in luctus commodo. Phasellus nec felis non elit feugiat cursus eu ut magna. Aenean cursus lobortis arcu, vel imperdiet dui feugiat vitae. Aenean aliquet faucibus erat placerat aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent non massa neque. Morbi sagittis neque sed varius ultricies. Aenean gravida eget quam sit amet lacinia. Phasellus feugiat in eros a egestas. Morbi malesuada placerat ex, et semper urna aliquet a. Nullam tristique tempus justo, vel placerat felis vehicula nec. Suspendisse vel metus mollis, volutpat elit quis, vulputate urna. Nam aliquet euismod arcu ac lobortis. Donec rutrum accumsan odio, ac feugiat arcu ullamcorper nec. Vivamus vitae magna dolor. <br> Donec iaculis massa a mauris dignissim, ut vulputate eros iaculis. Integer felis ligula, condimentum in luctus tincidunt, tristique a nisl. Donec pellentesque velit vel lorem dictum aliquet. Praesent vehicula auctor quam in faucibus. Suspendisse euismod lobortis urna, nec consequat odio ultricies in. Fusce velit lectus, consequat sed diam quis, vulputate consectetur turpis. Etiam quis commodo arcu. Nulla in congue lectus. Maecenas semper tristique dui, in auctor mauris iaculis eu. Vivamus eu nunc nibh. Sed sollicitudin eget leo at lacinia. Nunc nec neque ut nisl fermentum viverra. Quisque ut fermentum orci, eu fringilla libero."
+}
+
+.ipsum-lorem-3:before {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat magna vel velit laoreet, vel accumsan nisi consectetur. Phasellus non odio eget ex efficitur luctus et sit amet eros. Donec libero felis, viverra vel blandit sed, porttitor in ipsum. Maecenas id metus eget lacus maximus placerat quis vel metus. Phasellus ultricies ante at elit volutpat, nec consectetur quam consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eget feugiat eros. Sed hendrerit, purus nec aliquam sodales, magna tortor venenatis enim, vel lacinia libero enim vel erat.<br>Nunc imperdiet eleifend mollis. Maecenas tristique vehicula blandit. Nullam eget nibh libero. Nunc iaculis libero a viverra blandit. Integer vel orci pulvinar, tristique nulla vel, aliquam nunc. Curabitur fringilla, turpis non tincidunt fringilla, nisl ex pharetra arcu, vitae sodales nulla ante eu mauris. Quisque lacinia quam vestibulum, hendrerit urna sed, rutrum nulla. Quisque porta justo massa, id finibus magna venenatis ut. Suspendisse in metus sapien. Sed eget scelerisque sapien. Sed maximus facilisis diam ac molestie. Aliquam egestas imperdiet euismod.<br>Vivamus id mattis nunc. Sed interdum a augue quis condimentum. Praesent pellentesque tempus mauris, nec interdum ex efficitur id. Suspendisse congue ullamcorper diam, a varius tellus dictum nec. Mauris imperdiet scelerisque ante elementum tincidunt. Cras faucibus nec nisl et scelerisque. Phasellus feugiat cursus mi, eget tempor arcu ornare eu. Cras ac dolor a risus bibendum accumsan. Sed turpis ex, ultrices at feugiat at, bibendum ut mi. Aenean in libero mi. In et nisl et urna egestas gravida ullamcorper ut nunc. Ut nec nunc sed diam vulputate viverra. Proin eros diam, porttitor in felis sed, accumsan sagittis mauris. Mauris lobortis leo eu est venenatis commodo."
+}
+
+.ipsum-lorem-4:before {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at finibus mi. Nullam vulputate sem finibus, fermentum enim ut, vehicula nibh. In condimentum tincidunt quam eget gravida. Pellentesque nisi neque, ultrices auctor vehicula et, efficitur vitae metus. Praesent non ipsum nec nisi feugiat porttitor a vel lectus. Etiam sit amet urna pretium, faucibus nisl in, rutrum ex. Maecenas quis est convallis, egestas purus faucibus, eleifend sem. Nullam viverra, tellus at fermentum sollicitudin, velit odio lacinia erat, porta viverra ante elit quis tortor. Sed id mi quis justo feugiat laoreet. Vivamus varius ipsum vel congue interdum. Etiam nunc sem, cursus eget mauris eu, aliquam lobortis purus. Proin tincidunt ligula quis placerat aliquet. Vivamus posuere elementum elementum.<br>Nam luctus quam mauris, vitae cursus tortor pellentesque et. Fusce maximus magna quis purus vestibulum interdum. Sed mattis porttitor orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis iaculis ligula nisl, ut varius elit sollicitudin a. Sed eu diam sed turpis hendrerit commodo sed sit amet ex. Sed dapibus sem vitae mattis pulvinar. Aenean nec viverra neque. Vivamus at justo vitae turpis rutrum posuere. Nam non venenatis purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse tempor purus consectetur, rutrum lacus sodales, sollicitudin magna. Phasellus convallis erat auctor nulla sagittis, sed auctor quam fermentum.<br>Proin non efficitur lacus. Donec blandit ante ut nisl viverra, vel aliquam felis lacinia. Aliquam vel sapien egestas, imperdiet est et, mattis orci. Donec suscipit dictum turpis sodales vestibulum. In pellentesque id lectus ut cursus. Duis eu lobortis diam. Integer ornare orci accumsan velit gravida posuere. Praesent vitae libero at sem consequat mattis eget et turpis. Morbi nec dignissim orci. Etiam dictum dui at ornare blandit. Nullam ultricies nunc ac sapien pharetra, in commodo dui mattis. In auctor lacus a tellus mollis, iaculis lobortis tortor sagittis. Morbi justo lorem, congue et purus vel, pulvinar rhoncus erat. Phasellus eget elementum nunc, eu imperdiet nisl. Aliquam sed lacinia nulla.<br>Curabitur imperdiet dignissim massa et bibendum. Nulla pulvinar nisi at commodo tristique. Aliquam vehicula felis in urna ultrices fermentum. Morbi aliquam elit in libero venenatis commodo. Nullam finibus tempor ante, vel pharetra nibh malesuada in. Nulla ipsum magna, pulvinar quis purus vel, dignissim convallis erat. Aliquam nec turpis id felis scelerisque vulputate ornare sed lectus. Vestibulum eget justo id eros bibendum viverra in vitae sapien. Vivamus gravida iaculis libero, sit amet facilisis mi gravida non. Sed sit amet vulputate nisi, ac facilisis risus. Pellentesque sed justo lectus. Vivamus fringilla enim ut leo aliquam gravida."
+}
+
+.ipsum-lorem-5:before {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pulvinar ex. In leo orci, luctus id cursus ut, pellentesque non velit. Nulla feugiat, leo iaculis tempus porttitor, massa ante tincidunt ex, sit amet mollis nisi mauris at ante. Morbi tincidunt mauris id faucibus molestie. Donec quam neque, gravida placerat arcu tristique, finibus ultricies augue. Sed auctor magna lectus, ut rutrum est tempor at. Maecenas non purus non leo tincidunt suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus quis mi ac ligula tempus gravida non nec est. Pellentesque sapien felis, hendrerit ut turpis eget, tempus viverra enim. Proin sodales tempor massa nec fermentum.<br>Pellentesque pretium ante erat, eu aliquam ipsum lobortis vel. Donec rutrum lorem in imperdiet sollicitudin. Nam dictum risus ex, ut dapibus tortor congue quis. Suspendisse vitae nulla velit. Nulla facilisi. Praesent ac mattis sapien. Proin in justo dolor. In arcu est, convallis quis pulvinar quis, ultrices nec erat. Sed imperdiet orci non metus gravida bibendum. Curabitur lacinia iaculis dolor id fermentum. Praesent maximus tristique tellus. Duis ornare vestibulum nulla, at tristique justo elementum elementum.<br>Ut efficitur, leo vestibulum auctor aliquet, eros magna dignissim nibh, non ullamcorper urna justo nec dolor. Vivamus vel finibus est. Aliquam eget felis sit amet tellus faucibus aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse dignissim dictum pharetra. Pellentesque ut lorem sed eros blandit pellentesque eleifend et mauris. Mauris mattis interdum scelerisque. Curabitur hendrerit bibendum massa nec pretium. Nam iaculis vestibulum semper. Nam at vulputate ligula. Integer at ligula non lectus porta sodales. Donec gravida enim neque, ac hendrerit lectus luctus eu. Vestibulum scelerisque pulvinar finibus. In nec feugiat quam.<br>Nunc venenatis cursus diam hendrerit pretium. Ut in nunc nibh. Suspendisse sollicitudin, ex dapibus volutpat dictum, nunc mauris cursus dolor, non molestie justo felis eget diam. Duis pretium mattis lorem, at porttitor ligula porta eget. Proin a sodales quam, sed lobortis mauris. Integer scelerisque, arcu eu suscipit tristique, ex mauris mattis odio, sit amet vulputate dui justo at ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate at sapien eget vestibulum. Sed malesuada laoreet urna a luctus. Sed nibh turpis, tempus et elementum vitae, cursus quis quam. Vivamus euismod lectus nec volutpat molestie. Nulla quis turpis euismod massa dignissim pulvinar vel eget magna. Cras ut interdum ante. Vivamus sit amet sollicitudin ipsum. Quisque elementum est nec lorem dignissim laoreet. Nulla imperdiet et nisl sed convallis.<br>Mauris in elementum dui, id auctor tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit leo sapien, at tincidunt nulla aliquam porta. Etiam lacus risus, dignissim in libero vel, convallis convallis odio. Nulla facilisi. Cras a pulvinar dolor. Quisque sit amet volutpat nisl."
+}
