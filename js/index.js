@@ -33,12 +33,13 @@ $(document).ready(function(){
     
     $('#meses_slider').carousel({
     height: 100
-})
-});
+    });
 
-$('.carousel.carousel-slider').carousel({
-    full_width: true,
-    height: 100
+    $('.carousel.carousel-slider').carousel({
+        full_width: true,
+        height: 100
+    });
+
 });
 
 
