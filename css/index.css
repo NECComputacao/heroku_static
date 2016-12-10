@@ -128,6 +128,11 @@ td{
     color: #333 !important;
 }
 
+.cal_dia_active{
+    background-color: #ccc;
+    color: #333 !important;
+}
+
 .cal_dia_setas{
     display: inline-block;
     position: relative;
