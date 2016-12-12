@@ -41,17 +41,9 @@
     display: inline;
     margin-right: 10px;
 }
-.barra_lateral {
-    left: 0;
-    top: 0;
-    background-color: #fff;
-}
 
-/* icon prefix focus color
-.active {
-    color: #29b6f6 !important;
-}*/
-
-.bold {
-    font-weight: bold;
-}
+.barra_lateral a {color: #333 !important;}
+.barra_lateral a:link {color: #333 !important;}
+.barra_lateral a:visited {color: #333 !important;}
+.barra_lateral a:hover {color: #fff !important;}
+.barra_lateral a:active {color: #333 !important;}
