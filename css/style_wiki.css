@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    width: 100vw;
 }
 
  body {
@@ -10,7 +9,7 @@
     flex-direction: column;
 }
 
-.wrapper {
+#main {
     flex: 1 0 auto;
 }
 
