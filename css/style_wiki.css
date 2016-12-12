@@ -44,6 +44,4 @@
 
 #barra_lateral a:hover {color: #333 !important;}
 
-div.collapsible-header.active{
-    text-align:center;
-}
+div.collapsible-header.active{}
