@@ -44,7 +44,7 @@
 
 #barra_lateral a:hover {color: #333 !important;}
 
-.collapsible.popout>li.active{
+.collapsible.popout>li.active>collapsible-header.active{
     background-color: #333 !important;
     color: #fff !important;
 }
