@@ -10,7 +10,7 @@
     flex-direction: column;
 }
 
-main {
+.wrapper {
     flex: 1 0 auto;
 }
 
