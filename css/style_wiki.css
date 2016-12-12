@@ -17,6 +17,7 @@ body {
 
 .wrapper {
     flex: 1;
+    padding-bottom: 0px;
 }
 
 .btn-social {
