@@ -13,6 +13,9 @@ body {
     flex: 1 0 auto;
 }
 
+.wrapper {
+    flex: 1 0 auto;
+}
 
 .btn-social {
     display: inline-block;
