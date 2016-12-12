@@ -42,7 +42,7 @@
     margin-right: 10px;
 }
 
-#barra_lateral a:hover {color: #fff !important;}
+#barra_lateral a:hover {color: #333 !important;}
 
 .collapsible.popout>li.active{
     background-color: #333;
