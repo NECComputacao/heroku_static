@@ -103,6 +103,7 @@ function muda_data_atual(divi){
 //var imagem = null;
 function muda_data_atual_aux(ddaattaa){
     document.getElementById("data_Atual").textContent = ddaattaa;
+    $(".progresso_cal").css("visibility", "visible");
     $.getJSON("/" + ddaattaa.split('/').reverse().join('-') + '/', function(dadoss){
         var n = dadoss.length;
         dados_act = document.getElementById("dados_atividades");
@@ -174,6 +175,7 @@ function muda_data_atual_aux(ddaattaa){
             }
         }
     });
+    $(".progresso_cal").css("visibility", "hidden");
 }
 
 function display_info(v, l){
