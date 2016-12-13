@@ -55,3 +55,7 @@ div.collapsible-header.active{}
 .Site-content {
   flex: 1;
 }
+
+.bold{
+    font-weight: bold;
+}
