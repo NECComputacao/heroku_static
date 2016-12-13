@@ -49,3 +49,7 @@ body{
 #barra_lateral a:hover {color: #333 !important;}
 
 div.collapsible-header.active{}
+
+#main_footer{
+    bottom: 0px;
+}
