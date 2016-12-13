@@ -110,6 +110,7 @@ function muda_data_atual(divi){
 function muda_data_atual_aux(ddaattaa){
     document.getElementById("data_Atual").textContent = ddaattaa;
     $.getJSON("/" + ddaattaa.split('/').reverse().join('-') + '/', function(dadoss){
+        console.log("inicio");
         $("#progresso_cal").addClass('indeterminate');
         var n = dadoss.length;
         dados_act = document.getElementById("dados_atividades");
@@ -181,6 +182,7 @@ function muda_data_atual_aux(ddaattaa){
             }
         }
     }).done(function(){
+        console.log("fim");
         $("#progresso_cal").removeClass('indeterminate');
     });
 }
