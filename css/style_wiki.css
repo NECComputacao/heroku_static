@@ -53,6 +53,18 @@ a:visited {color: #039be5 !important;}
 a:hover {color: #333 !important;}
 a:active {color: #333 !important;}
 
+#mainNav a {color: #fff !important;}
+#mainNav a:link {color: #fff !important;}
+#mainNav a:visited {color: #fff !important;}
+#mainNav a:hover {color: #fff !important;}
+#mainNav a:active {color: #fff !important;}
+
+#slide-out-menu a {color: #333 !important;}
+#slide-out-menu a:link {color: #333 !important;}
+#slide-out-menu a:visited {color: #333 !important;}
+#slide-out-menu a:hover {color: #039be5 !important;}
+#slide-out-menu a:active {color: #039be5 !important;}
+
 .btn-social a {color: #333 !important;}
 .btn-social a:link {color: #333 !important;}
 .btn-social a:visited {color: #333 !important;}
