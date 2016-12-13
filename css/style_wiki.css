@@ -53,6 +53,14 @@ a:visited {color: #039be5 !important;}
 a:hover {color: #333 !important;}
 a:active {color: #333 !important;}
 
+.btn-social a {color: #333 !important;}
+.btn-social a:link {color: #333 !important;}
+.btn-social a:visited {color: #333 !important;}
+.btn-social a:hover {color: #039be5 !important;}
+.btn-social a:active {color: #039be5 !important;}
+
+#outros_links a:hover {color: #fff !important;}
+
 div.collapsible-header.active{}
 
 .Site-content {
