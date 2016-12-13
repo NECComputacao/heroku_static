@@ -27,12 +27,13 @@ function mounth_change(opt){
     mes_calendario = atual+1;
     
     var dbAPI = "/" + mes_calendario + "-" + ano_calendario + "/";
-    $("#progresso_cal").show();
     $.getJSON( dbAPI ).done(function( dados ) {
+        $("#progresso_cal").show();
         dias_actividades_mes_atual =[].concat.apply([], dados);
         getDaysArray(ano_calendario, atual+1);
+    }).done(function(){
+        $("#progresso_cal").hide();
     });
-    $("#progresso_cal").hide();
     
     caixa.textContent = meses[atual];
     muda_data_atual_aux( dia_calendario + "/" + (atual+1) + "/" + ano_calendario );
@@ -43,13 +44,14 @@ function init_calendario(){
     document.getElementById("mes_atual").textContent = hoje_mes_string;
     
     var dbAPI = "/" + mes_calendario + "-" + ano_calendario + "/";
-    $("#progresso_cal").show();
     $.getJSON( dbAPI ).done(function( dados ) {
+        $("#progresso_cal").show();
         //dias_actividades_mes_atual = dados;
         dias_actividades_mes_atual =[].concat.apply([], dados);
         getDaysArray(hoje_ano, hoje_mes_numero);
+    }).done(function(){
+        $("#progresso_cal").hide();
     });
-    $("#progresso_cal").hide();
     
     muda_data_atual_aux(data_atual);
 }
@@ -107,8 +109,8 @@ function muda_data_atual(divi){
 //var imagem = null;
 function muda_data_atual_aux(ddaattaa){
     document.getElementById("data_Atual").textContent = ddaattaa;
-    $("#progresso_cal").show();
     $.getJSON("/" + ddaattaa.split('/').reverse().join('-') + '/', function(dadoss){
+        $("#progresso_cal").show();
         var n = dadoss.length;
         dados_act = document.getElementById("dados_atividades");
         dados_act.innerHTML = "";
@@ -178,8 +180,9 @@ function muda_data_atual_aux(ddaattaa){
                 }
             }
         }
+    }).done(function(){
+        $("#progresso_cal").hide();
     });
-    $("#progresso_cal").hide();
 }
 
 function display_info(v, l){
