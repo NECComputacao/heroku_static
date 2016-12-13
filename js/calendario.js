@@ -28,11 +28,11 @@ function mounth_change(opt){
     
     var dbAPI = "/" + mes_calendario + "-" + ano_calendario + "/";
     $.getJSON( dbAPI ).done(function( dados ) {
-        $("#progresso_cal").show();
+        $("#progresso_cal").addClass('indeterminate');
         dias_actividades_mes_atual =[].concat.apply([], dados);
         getDaysArray(ano_calendario, atual+1);
     }).done(function(){
-        $("#progresso_cal").hide();
+        $("#progresso_cal").removeClass('indeterminate');
     });
     
     caixa.textContent = meses[atual];
@@ -45,12 +45,12 @@ function init_calendario(){
     
     var dbAPI = "/" + mes_calendario + "-" + ano_calendario + "/";
     $.getJSON( dbAPI ).done(function( dados ) {
-        $("#progresso_cal").show();
+        $("#progresso_cal").addClass('indeterminate');
         //dias_actividades_mes_atual = dados;
         dias_actividades_mes_atual =[].concat.apply([], dados);
         getDaysArray(hoje_ano, hoje_mes_numero);
     }).done(function(){
-        $("#progresso_cal").hide();
+        $("#progresso_cal").removeClass('indeterminate');
     });
     
     muda_data_atual_aux(data_atual);
@@ -110,7 +110,7 @@ function muda_data_atual(divi){
 function muda_data_atual_aux(ddaattaa){
     document.getElementById("data_Atual").textContent = ddaattaa;
     $.getJSON("/" + ddaattaa.split('/').reverse().join('-') + '/', function(dadoss){
-        $("#progresso_cal").show();
+        $("#progresso_cal").addClass('indeterminate');
         var n = dadoss.length;
         dados_act = document.getElementById("dados_atividades");
         dados_act.innerHTML = "";
@@ -181,7 +181,7 @@ function muda_data_atual_aux(ddaattaa){
             }
         }
     }).done(function(){
-        $("#progresso_cal").hide();
+        $("#progresso_cal").removeClass('indeterminate');
     });
 }
 
