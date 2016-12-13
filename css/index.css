@@ -60,6 +60,12 @@ nav.stick {
     height: 108px !important;
 }
 
+
+.bold{
+    font-weight: bold;
+}
+
+
 /*#textarea1{
     background-color: #fff;
 }

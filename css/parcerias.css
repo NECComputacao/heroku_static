@@ -107,3 +107,9 @@ nav.stick {
 .Site-content {
   flex: 1;
 }
+
+
+
+.bold{
+    font-weight: bold;
+}
