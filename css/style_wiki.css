@@ -48,7 +48,11 @@ body{
     margin-right: 10px;
 }
 
-#barra_lateral a:hover {color: #333 !important;}
+a {color: #039be5 !important;}
+a:link {color: #039be5 !important;}
+a:visited {color: #039be5 !important;}
+a:hover {color: #333 !important;}
+a:active {color: #333 !important;}
 
 div.collapsible-header.active{}
 
