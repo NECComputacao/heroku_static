@@ -109,9 +109,9 @@ function muda_data_atual(divi){
 //var imagem = null;
 function muda_data_atual_aux(ddaattaa){
     document.getElementById("data_Atual").textContent = ddaattaa;
+    console.log("inicio");
+    $("#progresso_cal").addClass('indeterminate');
     $.getJSON("/" + ddaattaa.split('/').reverse().join('-') + '/', function(dadoss){
-        console.log("inicio");
-        $("#progresso_cal").addClass('indeterminate');
         var n = dadoss.length;
         dados_act = document.getElementById("dados_atividades");
         dados_act.innerHTML = "";
