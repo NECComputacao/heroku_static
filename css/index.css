@@ -13,22 +13,21 @@ body{
 
 .btn-social {
     display: inline-block;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border: 2px solid white;
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
-    line-height: 45px;
 }
 
 .btn-outline {
     color: white;
     font-size: 20px;
-    border: solid 2px white;
+    border: 2px solid #424242;
     background: transparent;
     transition: all 0.3s ease-in-out;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .btn-outline:hover,
 .btn-outline:focus,
@@ -37,7 +36,6 @@ body{
     color: #29b6f6;
     background: white;
     border: solid 2px white;
-}
 
 .list-inline{
     margin-top: -10px;
