@@ -92,7 +92,7 @@ function getDaysArray(year, month) {
 
 function muda_data_atual(divi){
     dia_calendario = document.getElementById("celula_"+divi).textContent;
-    $(".cal_dia_"+divi).addClass( "cal_dia_active" );
+    $("#cal_dia_"+divi).addClass( "cal_dia_active" );
     dataaa = dia_calendario;
     dataaa += '/';
     dataaa += mes_calendario;
