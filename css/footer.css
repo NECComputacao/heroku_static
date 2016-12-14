@@ -66,6 +66,22 @@
     margin-top: 5px;
 }
 
-.botao_social:hover{
-    color: #29b6f6;
+.botao_social a{
+    color: #333 !important;
+}
+
+.botao_social a:link{
+    color: #333 !important;
+}
+
+.botao_social a:visited{
+    color: #333 !important;
+}
+
+.botao_social a:hover{
+    color: #29b6f6 !important;
+}
+
+.botao_social a:active {
+    color: #29b6f6 !important;
 }
