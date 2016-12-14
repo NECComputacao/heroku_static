@@ -27,18 +27,6 @@ nav.stick {
     font-weight: bold;
 }
 
-.btn-social a {color: #333 !important;}
-.btn-social a:link {color: #333 !important;}
-.btn-social a:visited {color: #333 !important;}
-.btn-social a:hover {color: #039be5 !important;}
-.btn-social a:active {color: #039be5 !important;}
-
-.footer-copyright a {color: #039be5 !important;}
-.footer-copyright a:link {color: #039be5 !important;}
-.footer-copyright a:visited {color: #039be5 !important;}
-.footer-copyright a:hover {color: #fff !important;}
-.footer-copyright a:active {color: #fff !important;}
-
 #outros_links a:hover {color: #fff !important;}
 #outros_links a:active {color: #039be5 !important;}
 
