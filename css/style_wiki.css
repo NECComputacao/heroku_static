@@ -10,11 +10,11 @@ body{
     background-color: #fafafa;
 }
 
-a {color: #039be5 !important;}
-a:link {color: #039be5 !important;}
-a:visited {color: #039be5 !important;}
-a:hover {color: #333 !important;}
-a:active {color: #333 !important;}
+a {color: #039be5;}
+a:link {color: #039be5;}
+a:visited {color: #039be5;}
+a:hover {color: #333;}
+a:active {color: #333;}
 
 #mainNav a {color: #fff !important;}
 #mainNav a:link {color: #fff !important;}
