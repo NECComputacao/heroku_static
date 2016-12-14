@@ -66,6 +66,10 @@
     margin-top: 5px !important;
 }
 
+.botao_social:hover{
+    color: #29b6f6 !important;
+}
+
 .botao_social a{
     color: #333 !important;
 }
