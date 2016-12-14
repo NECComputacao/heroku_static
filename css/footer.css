@@ -51,7 +51,7 @@
 #outros_links a:hover {color: #fff !important;}
 #outros_links a:active {color: #039be5 !important;}
 
-.botao_facebook a{
+.botao_facebook{
     display: inline-block;
     height: 30px;
     width: 30px;
