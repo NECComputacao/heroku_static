@@ -51,7 +51,7 @@
 #outros_links a:hover {color: #fff !important;}
 #outros_links a:active {color: #039be5 !important;}
 
-.botao_facebook a, a:link, a:visited {
+.botao_facebook a{
     display: inline-block;
     height: 30px;
     width: 30px;
@@ -65,6 +65,14 @@
     background: transparent;
     transition: all 0.3s ease-in-out;
     margin-top: 5px;
+}
+
+.botao_facebook a:link{
+    color: #333;
+}
+
+.botao_facebook a:visited{
+    color: #333;
 }
 
 .botao_facebook a:hover, a:active {
